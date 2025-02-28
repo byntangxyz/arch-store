@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import "@/app/globals.css"
 import React, { useState, useRef, useEffect } from "react";
 
 const Header = () => {
@@ -48,7 +49,7 @@ const Header = () => {
   //   }, []);
 
   return (
-    <header className=" fixed top-0 left-0 w-full flex items-center z-20 transition-colors bg-black">
+    <header className="fixed top-0 left-0 w-full flex items-center z-20 transition-colors bg-black">
       <div className="w-full">
         <div className="flex items-center justify-between relative">
           <div className="px-4">
